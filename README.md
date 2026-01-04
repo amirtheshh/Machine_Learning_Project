@@ -50,9 +50,7 @@ A total of **12 models** were trained and compared using consistent preprocessin
 | Model                      | Notes                                                                 |
 |---------------------------|------------------------------------------------------------------------|
 | **HistGradientBoosting**   | ⭐ Final selected model – fast, scalable, and highly accurate           |
-| **Extra Trees Regressor**  | Performed well with good peformance metrics, fast training, but prone to overfitting |
-| **Gradient Boosting Regressor** | Strong overall performance, good generalization                 |
-| **Decision Tree Regressor**| Good performance, interpretable but prone to overfitting            |
+
 
 
 ---
@@ -65,12 +63,7 @@ After comparing 12 models, **HistGradientBoosting** was chosen due to:
 - ✅ Good performance on unseen data
 - ✅ Easy integration into pipeline and deployment
 
-| Metric      | Value           |
-|-------------|-----------------|
-| MAE         | 15,707.06 SGD   |
-| MSE         | 429,888,938.58  |
-| RMSE        | 20,733.76 SGD   |
-| R² Score    | 0.9574          |
+
 - Final model serialized as `hdb_resale_price_hgb.pkl`
 
 ---
